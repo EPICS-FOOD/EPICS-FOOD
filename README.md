@@ -9,7 +9,7 @@ Amazon Registry Webscraper Bot, Incentivization Website
 ## <ins>Bot</ins>
 
 #### Getting Started
-  This bot has been created using [<ins>Selenium</ins>](https://example.com](https://selenium-python.readthedocs.io/), please reference this documentation when working in this package! This page already contains an explination of how to get started with selenium on your own system, and there are many guides online.
+  This bot has been created using [<ins>Selenium</ins>](https://selenium-python.readthedocs.io/), please reference this documentation when working in this package! This page already contains an explination of how to get started with selenium on your own system, and there are many guides online.
   
 ##### Step 1
    Download Google Chrome to your system, and or update your current chrome version.
