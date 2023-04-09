@@ -74,7 +74,7 @@ Amazon Registry Webscraper Bot, Incentivization Website
    Happy developing, keep in mind that all changes made in your local need to be:
      
      'git add .' 
-     'git commit -m 'insert message description'
+     'git commit -m "insert message description" '
      'git push'
     
    Additionally, when we start pushing this code into a cloud service such as AWS (which is currently the plan) the drivers and code will again need to be changed.
