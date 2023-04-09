@@ -48,7 +48,7 @@ Amazon Registry Webscraper Bot, Incentivization Website
   
    Open up the bot folder in your preferred IDE, I am using VSC which I recommend for this project, and locate the browser code in the 'main.py' file:
     
-    <ins>browser = Browser('drivers\chromedriver_win32\chromedriver.exe')</ins>
+    browser = Browser('drivers\chromedriver_win32\chromedriver.exe')
     
    If your driver changed from the one that was previously in use, please string path to fit yours!
     
