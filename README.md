@@ -27,7 +27,9 @@ Amazon Registry Webscraper Bot, Incentivization Website
    Download the correct webdriver for your system [here](https://chromedriver.chromium.org/downloads), current options MacOS, Linux, Windows
 
 ##### Step 3
-   place holder
+   Git clone this repo, this step requires you to make sure Git is set up on your computer or that you know how to handle git. I followed this guide [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo), I decided to download Git Bash, and set up a P.A.T. (personal access token). For long term usage, it would be wise to look into the git manager.
+   
+   After that, it should be as easy as "git clone https://github.com/EPICS-FOOD/EPICS-FOOD.git" in your git bash or however else you manage your local repos.
   
 #### Documentation
   
