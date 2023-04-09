@@ -31,7 +31,7 @@ Amazon Registry Webscraper Bot, Incentivization Website
    
    After that, it should be as easy as:
     
-    "git clone https://github.com/EPICS-FOOD/EPICS-FOOD.git"
+    'git clone https://github.com/EPICS-FOOD/EPICS-FOOD.git'
    
    in your git bash or however else you manage your local repos.
    
