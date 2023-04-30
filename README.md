@@ -3,7 +3,9 @@ Amazon Registry Webscraper Bot, Incentivization Website
 
 ## What is in this repo?
 ### 1. ['Bot'](##Bot) Contains selenium code for bot to webscrape Amazon Registry, for more information, read Bot section of this read me on how to get started with it.
-### 2. More stuff in the future to come hopefully :-)
+### 2. Amazon Registry Link
+### 3. Website
+### 4. More stuff in the future to come hopefully :-)
 
 
 ## <ins>Bot</ins>
@@ -77,23 +79,40 @@ Amazon Registry Webscraper Bot, Incentivization Website
      'git commit -m "insert message description" '
      'git push'
     
-   Additionally, when we start pushing this code into a cloud service such as AWS (which is currently the plan) the drivers and code will again need to be changed.
-     
-   
-  
-    
-    
- 
+   Additionally, when we start pushing this code into a cloud service such as AWS (which is currently the plan) the drivers and code will again need to be changed. 
   
 #### Documentation
   
 #### Bugs & Concerns
-  -a
-  -b
-  -c
+  - 1. Amazon has an anti-bot system which will ask for a captcha, this causes the bot to fail signing in.
+  - 2. Bot does not yet collect data of items purchased by users
+  - 3. Bot does not send this data to AWS database (non-existant at this point) or or make any updates.
+  - 4. Code sucks
 
 #### TODO:
-  -a
-  -b
-  -c
+  - 1.
+    - Make bot know how to handle this case in Bugs & Concerns
+    - Create Email + Text System to notify ACE manager when captcha happens. When alerted, ACE manager needs only to sign in to amazon account to solve this issue.
+  - 2.
+    - Take a look at how items on the data base ares currently gathered, and implment this in the same way for users!
+    - Once you've connected the bot to a database, I suggest you save up to which row of the Amazon Registry you've read, this way the bot does not ever re-process old         data
+  - 3.
+    - Connect bot to database! (Make database first)
+  - 4. Make this code better :-)
 
+
+
+
+
+## <ins>Amazon Registry</ins>
+
+##### Link
+  https://www.amazon.com/registries/gl/guest-view/QLTIXIO3O0Y7
+
+## <ins>Website</ins>
+
+There is nothing done yet for our website :-)
+
+We have an AWS account, nothing else
+
+## <ins>More</ins>
